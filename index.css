@@ -1,0 +1,60 @@
+.parent {
+    width: 300px;
+    height: 300px;
+    border-style: dotted;
+    border:whitesmoke ;
+}
+
+.box {
+
+    height: 100px;
+    width: 50%;
+    background-color: red;
+    font-size: 40px;
+    left:330px;
+    top: 0px;
+    position: absolute;
+    transition-property:width height background-color font-size ;
+  transition-duration: 360ms;
+  transition-timing-function: ease-in-out;
+background-position: left;
+text-align: center;
+}
+
+.parent:hover .box {
+    transform: rotate(2turn);
+    width: 150px;
+    height: 70px;
+    background-color: green;
+    color:yellow;
+    font-size: 20px;
+    left: 40%;
+    text-align: center;
+    top: 150px;
+    position: absolute;
+    transition-property: width height background-color font-size ;
+transition-duration: 1000ms;
+transition-timing-function: ease-in-out;
+
+}
+
+.img1 {
+   padding-left: 10px;
+
+}
+.img2 {
+    padding-left: 700px;
+}
+
+.img3 {
+    padding-top: 150px;
+}
+
+.img4 {
+    padding-left: 700px;
+    padding-top: 150px;
+}
+
+body {
+    background-color: teal;
+}
